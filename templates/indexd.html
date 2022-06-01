@@ -1,0 +1,61 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Hideyourtext</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="box-form">
+	<div class="left">
+		<div class="overlay">
+		<h1>Hide the secrets
+			
+		</h1>
+		
+		
+		</div>
+	</div>
+	
+	
+		<div class="right">
+		<h5>let's shOW</h5>
+		
+		<div class="inputs">
+			
+          <form action = "cho/" autocomplete = 'off' >
+			<input type="text"  name="Plain text" Placeholder='Encrypted text'>
+			<br>
+			<input type="password" name="key" Placeholder='key'>
+			<br>
+			
+			<br>
+			<button>Decrypt</button>  
+		 
+
+			
+			
+		
+		  </form>
+
+		
+
+
+
+		</div>
+		
+		
+	</div>
+	<button onclick="location.href='/'">Encrypt</button>
+	
+</div>
+<!-- partial -->
+  
+</body>
+</html>
